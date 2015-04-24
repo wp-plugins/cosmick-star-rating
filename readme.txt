@@ -3,8 +3,8 @@ Contributors: cosmick
 Donate link: http://cosmicktechnologies.com/
 Tags: 5 star, admin, five-star, post rating, Google Star Rating
 Requires at least: 3.0.1
-Tested up to: 4.1.1
-Stable tag: 1.0.9
+Tested up to: 4.2
+Stable tag: 1.0.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -75,6 +75,10 @@ Yes you can use your own style sheet and override css settings
 
 == Changelog ==
 
+= 1.0.10 =
+
+- TWEAK: Fixed bug with Star Rating form shortcode.
+
 = 1.0.9 =
 
 - TWEAK: Corrected display of stars on other post types.
@@ -111,5 +115,5 @@ Yes you can use your own style sheet and override css settings
 
 == Upgrade Notice ==
 
-= 1.0.9 =
-Corrected display of stars on other post types.
+= 1.0.10 =
+Fixed bug with Star Rating form shortcode.
