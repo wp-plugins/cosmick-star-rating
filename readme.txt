@@ -1,7 +1,7 @@
 === Cosmick Star Rating ===
 Contributors: cosmick
 Donate link: http://cosmicktechnologies.com/
-Tags: 5 star, admin, five-star, post rating, Google Star Rating
+Tags: 5 star, admin, reviews, testimonials, five-star, post rating, Google Star Rating
 Requires at least: 3.0.1
 Tested up to: 4.2
 Stable tag: 1.0.10
