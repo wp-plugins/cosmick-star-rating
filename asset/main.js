@@ -3,8 +3,8 @@ jQuery(function () {
     jQuery("#csr-customerrating").jRate({
         strokeColor: 'black',
         precision: 0,
-        startColor: "yellow",
-        endColor: "yellow",
+        startColor: "#FFAE00",
+        endColor: "#FFAE00",
         onChange: function (rating) {
             jQuery("#customer_rate").text(rating);
         },
@@ -21,8 +21,8 @@ jQuery(".csr-ratings").each(function () {
         readOnly: true,
         rating: rating,
         strokeColor: 'black',
-        startColor: "yellow",
-        endColor: "yellow"
+        startColor: "#FFAE00",
+        endColor: "#FFAE00"
     });
 });
 
@@ -32,8 +32,8 @@ admin_rating.jRate({
     strokeColor: 'black',
     precision: 0,
     rating: admin_rating.data('rating'),
-    startColor: "yellow",
-    endColor: "yellow",
+    startColor: "#FFAE00",
+    endColor: "#FFAE00",
     onChange: function (rating) {
         jQuery("#customer_rate").text(rating);
     },

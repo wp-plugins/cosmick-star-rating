@@ -1,10 +1,10 @@
 === Cosmick Star Rating ===
 Contributors: cosmick
 Donate link: http://cosmicktechnologies.com/
-Tags: 5 star, admin, reviews, testimonials, five-star, post rating, Google Star Rating
+Tags: 5 star, admin, five-star, post rating, Google Star Rating
 Requires at least: 3.0.1
-Tested up to: 4.2
-Stable tag: 1.0.10
+Tested up to: 4.2.2
+Stable tag: 1.0.11
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,6 +74,12 @@ Yes you can use your own style sheet and override css settings
 4. Add/Edit Review - Admin
 
 == Changelog ==
+
+= 1.0.11 =
+
+- TWEAK: Star Color changed to appear as more golden.
+- ADDED: Added shortcode `[csr-form]` to add review rating form.
+- ADDED: Added shortcode `[csr-overall]` in your page/post for getting aggregate rating.
 
 = 1.0.10 =
 

@@ -3,14 +3,14 @@
  * Plugin Name: Cosmick Star Rating
  * Plugin URI: http://cosmicktechnologies.com/
  * Description: Google Organic Search Rich Snippets for Reviews and Rating.
- * Version: 1.0.10
+ * Version: 1.0.11
  * Author: Cosmick Technologies
  * Author URI: http://cosmicktechnologies.com/
  * License: GPL2
  */
 
 global $wpdb;
-define('CSRVERSION', '1.0.10');
+define('CSRVERSION', '1.0.11');
 define('CSRVOTESTBL', $wpdb->prefix . 'csr_votes');
 
 register_activation_hook(__FILE__, 'csr_install');
@@ -47,10 +47,10 @@ function csr_uninstall() {
 
 function csr_include_scripts() {
     wp_enqueue_script(
-            'jqrate', plugins_url('/asset/jRate.min.js', __FILE__), array('jquery'), CSRVERSION, true
+            'csr-jqrate', plugins_url('/asset/jRate.min.js', __FILE__), array('jquery'), CSRVERSION, true
     );
     wp_enqueue_script(
-            'jqmain', plugins_url('/asset/main.js', __FILE__), array('jquery', 'jqrate'), CSRVERSION, true
+            'csr-jqmain', plugins_url('/asset/main.js', __FILE__), array('jquery', 'csr-jqrate'), CSRVERSION, true
     );    
     wp_enqueue_style( 'csr-style', plugins_url('/asset/csr.css', __FILE__), array(), CSRVERSION );
 }
