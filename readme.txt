@@ -26,11 +26,11 @@ Features:
 
 = Aggregate Rating =
 
-Place `<?php csr_get_overall_rating(); ?>` in your templates for getting aggregate rating.
+Place `<?php csr_get_overall_rating(); ?>` in your templates for getting aggregate rating. Or, add shortcode `[csr-overall]` in your page/post for getting aggregate rating.
 
 = Front End Rate Submission = 
 
-Place `<?php csr_add_rating(); ?>` in your templates or `[csr-add-rating]` Shortcode in a page for Star rating Form.
+Place `<?php csr_add_rating(); ?>` in your templates or `[csr-form]` Shortcode in a page for Star rating Form.
 
 = To get Single Review Rate =
 
