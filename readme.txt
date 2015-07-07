@@ -3,8 +3,8 @@ Contributors: cosmick
 Donate link: http://cosmicktechnologies.com/
 Tags: 5 star, admin, five-star, post rating, Google Star Rating
 Requires at least: 3.0.1
-Tested up to: 4.2
-Stable tag: 1.0.10
+Tested up to: 4.2.2
+Stable tag: 1.0.11
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,11 +26,11 @@ Features:
 
 = Aggregate Rating =
 
-Place `<?php csr_get_overall_rating(); ?>` in your templates for getting aggregate rating.
+Place `<?php csr_get_overall_rating(); ?>` in your templates for getting aggregate rating. Or, add shortcode `[csr-overall]` in your page/post for getting aggregate rating.
 
 = Front End Rate Submission = 
 
-Place `<?php csr_add_rating(); ?>` in your templates or `[csr-add-rating]` Shortcode in a page for Star rating Form.
+Place `<?php csr_add_rating(); ?>` in your templates or `[csr-form]` Shortcode in a page for Star rating Form.
 
 = To get Single Review Rate =
 
